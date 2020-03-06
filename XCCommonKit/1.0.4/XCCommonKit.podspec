@@ -16,7 +16,6 @@ Pod::Spec.new do |spec|
   spec.author       = { 'iTwinkle' => 'yangyangy0423@126.com' }
   spec.platform     = :ios, '8.0'               #支持的系统
   spec.source       = { :git => 'https://github.com/iTwinkle/XCCommonKit.git', :branch =>'develop' }
-#  spec.source = { :git => "https://github.com/iTwinkle/XCCommonKit.git", :tag => '1.0.4'}
   spec.source_files = 'XCCommonKit/**/*.{h,m}'  #源码
   spec.ios.deployment_target = '9.0'
 #  s.dependency 'AFNetworking'
