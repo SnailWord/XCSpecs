@@ -10,19 +10,12 @@ Pod::Spec.new do |s|
   s.name             = 'XCCommonKit'
   s.version          = '1.0.0'
   s.summary          = '公共组件XCCommonKit.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+ 
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/iTwinkle/XCCommonKit'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'iTwinkle' => 'yangyangy0423@126.com' }
   s.source           = { :git => 'https://github.com/iTwinkle/XCCommonKit.git', :tag => s.version.to_s }
@@ -30,7 +23,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'XCCommonKit/Classes/**/*'
+  s.source_files = 'XCCommonKit/Classes/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'XCCommonKit' => ['XCCommonKit/Assets/*.png']
